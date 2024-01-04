@@ -9,14 +9,14 @@
               %unborn   [%dead last-contact.qos.ship-state]
   ==        ==
 ++  scry-qos
-  |=  [=ship =time peer=ship]
+  |=  [=ship now=@da tick=@ud peer=ship]
   ^-  qos:ames
   %-  simplify-qos
   .^  ship-state:ames
       %ax
       (scot %p ship)
       %$
-      (scot %da time)
+      (en-cose da+now ud+tick)
       %peers
       (scot %p peer)
       ~

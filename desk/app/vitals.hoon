@@ -91,6 +91,7 @@
 |_  [=bowl:gall cards=(list card)]
 +*  our   our.bowl
     now   now.bowl
+    tick  tick.bowl
     src   src.bowl
 ++  cor   .
 ++  abet  [(flop cards) state]
@@ -124,7 +125,7 @@
       %run-check
     ?>  =(our src)
     =+  !<(=ship vase)
-    ?>  =(~ (find ~[our] (saxo:title our now ship)))
+    ?>  =(~ (find ~[our] (saxo:title our now tick ship)))
     =/  stat=(unit result:v)  (~(get by connections) ship)
     ::  XX: code duplicated because of annoying type issue
     ?~  stat
@@ -161,8 +162,8 @@
       %ship
     =+  !<(=ship vase)
     ?<  =(our ship)
-    ?<  =(~ (find ~[our] (saxo:title our now ship)))
-    ?.  ?=([%live *] (scry-qos:lib our now ship))
+    ?<  =(~ (find ~[our] (saxo:title our now tick ship)))
+    ?.  ?=([%live *] (scry-qos:lib our now tick ship))
       !!
     cor
   ==
@@ -191,14 +192,14 @@
     %-  some
     %-  some
     :-  %vitals-qos
-    !>  (scry-qos:lib our now (sein:title our now our))
+    !>  (scry-qos:lib our now tick (sein:title our now tick our))
   ::
       [%x %galaxy ~]
     ?<  ?=(%czar (clan:title our))
     %-  some
     %-  some
     :-  %vitals-qos
-    !>  (scry-qos:lib our now (rear (saxo:title our now our)))
+    !>  (scry-qos:lib our now tick (rear (saxo:title our now tick our)))
   ::
       [%x %ship @tas ~]
     %-  some
