@@ -374,7 +374,8 @@
         --
     ::
     ^+  cor
-    =/  bas  /(scot %p our.bowl)/contact-store/(scot %da now.bowl)
+    =/  bas
+      /(scot %p our.bowl)/contact-store/(en-cose da+now.bowl ud+tick.bowl)
     ?.  .^(? gu+(weld bas /$))  cor
     =/  ful  .^(rolodex:legacy gx+(weld bas /all/noun))
     ::
