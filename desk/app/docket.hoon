@@ -124,7 +124,7 @@
         %reinstall-groups
       :_  state
       =+  .^  sources=(map desk [=ship desk])  %gx
-              /(scot %p our.bowl)/hood/(scot %da now.bowl)/kiln/sources/noun
+              (en-bema [our.bowl %hood da+now.bowl ud+tick.bowl] /kiln/sources/noun)
           ==
       =/  talk    (~(get by sources) %talk)
       =/  groups  (~(get by sources) %groups)
@@ -217,7 +217,7 @@
     ::
       [%x %charges ~]
     =/  tyr
-      .^(rock:tire:clay %cx /(scot %p our.bowl)//(scot %da now.bowl)/tire)
+      .^(rock:tire:clay %cx (en-bema [our.bowl %$ da+now.bowl ud+tick.bowl] /tire))
     :-  ~  :-  ~
     %-  charge-update:cg
     :-  %initial
@@ -412,7 +412,7 @@
     =^  cards-2  state
       =*  cha   ~(. ch desk)
       =/  tyr
-        .^(rock:tire:clay %cx /(scot %p our.bowl)//(scot %da now.bowl)/tire)
+        .^(rock:tire:clay %cx (en-bema [our.bowl %$ da+now.bowl ud+tick.bowl] /tire))
       ?.  =(%live zest:(~(got by tyr) desk))
         `state
       ?.  docket-exists:cha
