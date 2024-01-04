@@ -69,7 +69,8 @@
         ::  XX: deprecated; migration code
           %noun
         ?>  ?=(%migrate !<(%migrate vas))
-        =/  bas  /(scot %p our.bowl)/settings-store/(scot %da now.bowl)
+        =/  bas
+          /(scot %p our.bowl)/settings-store/(en-cose da+now.bowl ud+tick.bowl)
         :-  ~
         ?.  .^(? %gu (weld bas /$))
           state
