@@ -102,7 +102,8 @@
       ::  XX: deprecated; migration code
         %noun
       ?>  ?=(%migrate !<(%migrate vase))
-      =/  bas  /(scot %p our.bowl)/s3-store/(scot %da now.bowl)
+      =/  bas
+        /(scot %p our.bowl)/s3-store/(en-cose da+now.bowl ud+tick.bowl)
       :-  ~
       ?.  .^(? %gu (weld bas /$))
         state
