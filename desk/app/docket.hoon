@@ -227,7 +227,7 @@
     ?~  got=(~(get by tyr) desk)
       ~
     ?:  ?&  ?=(%dead zest.u.got)
-            ?=(~ (get-apps-have our.bowl desk now.bowl))
+            ?=(~ (get-apps-have our.bowl desk now.bowl tick.bowl))
         ==
       ~
     `u=[desk (get-light-charge charge)]
