@@ -55,7 +55,8 @@
       %initialize
     =;  consent=?
       $(mark ?:(consent %enable %disable), vase !>(~))
-    =/  bap=path  /(scot %p our.bowl)/settings/(scot %da now.bowl)
+    =/  bap=path
+      /(scot %p our.bowl)/settings/(en-cose da+now.bowl ud+tick.bowl)
     ?.  .^(? %gu (snoc bap %$))  |
     =+  .^(=data:settings %gx (weld bap /desk/groups/settings-data))
     ?>  ?=(%desk -.data)
